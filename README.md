@@ -1,7 +1,24 @@
-# Face Detecting and Recognising 
-Using Opencv and  Tensorflow-keras for capturing faces and Deep Learning on CNN
+# Face Detection & Recognition (OpenCV + Keras)
 
-The codes can running on  Rasberry Pi 3, Rasberry Pi 4 and PC (tested)
+A small end-to-end demo:
+1) capture faces
+2) train a lightweight CNN
+3) run recognition
+
+## Requirements
+- Python 3.x
+- OpenCV
+- TensorFlow / Keras
+- Camera (Raspberry Pi or PC)
+
+## How to run
+- `capturing_faces.py` → collect samples
+- `learning_faces.py` → train
+- `recognise_faces.py` → inference
+
+## Notes
+- Accuracy depends on dataset size, lighting, and camera quality.
+- Do not use for sensitive/production identification use-cases.
 
 Model accuracy is almost %98
 
