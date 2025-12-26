@@ -36,3 +36,5 @@ Model accuracy is almost %98
 3) Run Recognise_faces.py for  recognising faces that learned (using opencv and tensorflow-keras)
 
 ![alt text](https://github.com/taskma/Face_detect_and_recognise/blob/master/accuracy.png)
+
+Model accuracy is almost %98
